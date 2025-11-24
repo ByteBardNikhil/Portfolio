@@ -260,7 +260,6 @@ body {
 
 /* ABOUT */
 .about {
-  padding: 100px 20px;
 }
 
 .about-content {
@@ -280,13 +279,25 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
+.skills-category h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
-
+.about-text,
+.glass-card {
+  padding: 1rem;
+}
 /* PROJECTS */
 .projects {
   padding: 100px 20px;
