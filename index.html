@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nikhil Mahajan - Software Engineer Portfolio"
+    />
+    <title>Nikhil Mahajan | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Theme Toggle Button (Floating) -->
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+      <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">NM</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#freelancing">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Nikhil Mahajan</h1>
+          <h2 class="hero-role">Software Engineer</h2>
+          <p class="hero-description">
+            Crafting elegant solutions through clean code and innovative
+            thinking. Passionate about building scalable applications that make
+            a difference.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-circle">
+            <!-- <i class="fas fa-user-tie"></i> -->
+            <!-- <img src="https://i.ibb.co/1Gc0FsHc/Nik-3.png" alt="pic" /> -->
+            <img src="https://i.ibb.co/0jwc2868/p22.jpg" alt="pic" />
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text glass-card">
+            <h3>Hi there! 👋</h3>
+            <p id="resumeContent">
+              <!-- Resume content will be inserted here -->
+              I'm a passionate Software Engineer with expertise in building
+              modern web applications. I love transforming complex problems into
+              simple, beautiful, and intuitive solutions.
+            </p>
+            <p class="personality-text">
+              When I'm not coding, you'll find me exploring new technologies,
+              contributing to open-source projects, or sharing knowledge with
+              the developer community. I believe in continuous learning and
+              staying updated with the latest industry trends. Let's build
+              something amazing together!
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card glass-card">
+              <i class="fas fa-code"></i>
+              <h4>Clean Code</h4>
+              <p>Writing maintainable & scalable solutions</p>
+            </div>
+            <div class="stat-card glass-card">
+              <i class="fas fa-lightbulb"></i>
+              <h4>Problem Solver</h4>
+              <p>Innovative approach to challenges</p>
+            </div>
+            <div class="stat-card glass-card">
+              <i class="fas fa-rocket"></i>
+              <h4>Fast Learner</h4>
+              <p>Adapting to new technologies quickly</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-container">
+          <!-- Technical Skills -->
+          <div class="skills-category glass-card">
+            <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <i class="fab fa-java"></i>
+                <span>Java</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-react"></i>
+                <span>React</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-node-js"></i>
+                <span>Node.js</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-database"></i>
+                <span>SQL</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-git-alt"></i>
+                <span>Git</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skills-category glass-card">
+            <h3><i class="fas fa-users"></i> Soft Skills</h3>
+            <div class="skills-list">
+              <div class="soft-skill">
+                <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                <div class="skill-details">
+                  <h4>Communication</h4>
+                  <p>Clear and effective communication with team and clients</p>
+                </div>
+              </div>
+              <div class="soft-skill">
+                <div class="skill-icon"><i class="fas fa-users-cog"></i></div>
+                <div class="skill-details">
+                  <h4>Teamwork</h4>
+                  <p>Collaborative approach to achieve common goals</p>
+                </div>
+              </div>
+              <div class="soft-skill">
+                <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                <div class="skill-details">
+                  <h4>Problem Solving</h4>
+                  <p>Analytical thinking and creative solutions</p>
+                </div>
+              </div>
+              <div class="soft-skill">
+                <div class="skill-icon"><i class="fas fa-clock"></i></div>
+                <div class="skill-details">
+                  <h4>Time Management</h4>
+                  <p>Efficient project delivery and deadline management</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <div class="project-card glass-card">
+            <div class="project-image">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="project-content">
+              <h3>E-Commerce Platform</h3>
+              <p>
+                A full-stack e-commerce application with user authentication,
+                product management, and secure payment integration.
+              </p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-buttons">
+                <a href="#" class="btn-small btn-primary">Live Demo</a>
+                <a href="#" class="btn-small btn-secondary">View Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card glass-card">
+            <div class="project-image">
+              <i class="fas fa-tasks"></i>
+            </div>
+            <div class="project-content">
+              <h3>Task Management App</h3>
+              <p>
+                Intuitive task tracker with real-time collaboration,
+                drag-and-drop functionality, and progress analytics.
+              </p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>Firebase</span>
+                <span>CSS3</span>
+              </div>
+              <div class="project-buttons">
+                <a href="#" class="btn-small btn-primary">Live Demo</a>
+                <a href="#" class="btn-small btn-secondary">View Code</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card glass-card">
+            <div class="project-image">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="project-content">
+              <h3>Analytics Dashboard</h3>
+              <p>
+                Real-time data visualization dashboard with interactive charts,
+                filters, and export functionality.
+              </p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>D3.js</span>
+                <span>REST API</span>
+              </div>
+              <div class="project-buttons">
+                <a href="#" class="btn-small btn-primary">Live Demo</a>
+                <a href="#" class="btn-small btn-secondary">View Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Freelancing Section -->
+    <section id="freelancing" class="freelancing">
+      <div class="container">
+        <h2 class="section-title">Freelance Services</h2>
+        <p class="section-subtitle">
+          Let's bring your ideas to life with professional development services
+        </p>
+
+        <!-- Services Overview -->
+        <div class="services-intro glass-card">
+          <p>
+            I offer comprehensive web development services tailored to your
+            needs. From responsive websites to full-stack applications, I
+            deliver quality solutions that help your business grow.
+          </p>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="pricing-grid">
+          <div class="pricing-card glass-card">
+            <div class="pricing-icon"><i class="fas fa-code"></i></div>
+            <h3>Basic Website</h3>
+            <div class="price">$500 - $1,000</div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Responsive Design</li>
+              <li><i class="fas fa-check"></i> Up to 5 Pages</li>
+              <li><i class="fas fa-check"></i> Contact Form</li>
+              <li><i class="fas fa-check"></i> SEO Optimization</li>
+              <li><i class="fas fa-check"></i> 1 Month Support</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Get Started</a>
+          </div>
+
+          <div class="pricing-card glass-card featured">
+            <div class="popular-badge">Most Popular</div>
+            <div class="pricing-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Full-Stack App</h3>
+            <div class="price">$2,000 - $5,000</div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Custom Backend</li>
+              <li><i class="fas fa-check"></i> Database Integration</li>
+              <li><i class="fas fa-check"></i> User Authentication</li>
+              <li><i class="fas fa-check"></i> Admin Dashboard</li>
+              <li><i class="fas fa-check"></i> 3 Months Support</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+          </div>
+
+          <div class="pricing-card glass-card">
+            <div class="pricing-icon"><i class="fas fa-rocket"></i></div>
+            <h3>Enterprise Solution</h3>
+            <div class="price">Custom Quote</div>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check"></i> Scalable Architecture</li>
+              <li><i class="fas fa-check"></i> Cloud Deployment</li>
+              <li><i class="fas fa-check"></i> API Integration</li>
+              <li><i class="fas fa-check"></i> Performance Optimization</li>
+              <li><i class="fas fa-check"></i> Ongoing Maintenance</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials">
+          <h3>What Clients Say</h3>
+          <div class="testimonials-grid">
+            <div class="testimonial-card glass-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                "Exceptional work! Nikhil delivered a stunning website that
+                exceeded our expectations. Professional, timely, and great
+                communication throughout."
+              </p>
+              <div class="testimonial-author">
+                <strong>Sarah Johnson</strong>
+                <span>CEO, TechStart</span>
+              </div>
+            </div>
+            <div class="testimonial-card glass-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                "Highly skilled developer with excellent problem-solving
+                abilities. The application runs smoothly and looks amazing.
+                Would definitely hire again!"
+              </p>
+              <div class="testimonial-author">
+                <strong>Michael Chen</strong>
+                <span>Founder, InnovateLabs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Download Section -->
+    <section id="resume" class="resume-download">
+      <div class="container">
+        <div class="resume-card glass-card">
+          <div class="resume-icon">
+            <i class="fas fa-file-download"></i>
+          </div>
+          <div class="resume-content">
+            <h3>Download My Resume</h3>
+            <p>
+              Get a detailed overview of my experience, skills, and achievements
+            </p>
+            <div class="resume-info">
+              <p><i class="fas fa-user"></i> Nikhil Mahajan</p>
+              <p><i class="fas fa-envelope"></i> contact@nikhilmahajan.dev</p>
+              <p><i class="fas fa-phone"></i> +91 XXXXX XXXXX</p>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary download-btn">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          Have a project in mind? Let's work together!
+        </p>
+
+        <div class="contact-container">
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper glass-card">
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+
+          <!-- Contact Info & Social Links -->
+          <div class="contact-info">
+            <div class="info-card glass-card">
+              <i class="fas fa-envelope"></i>
+              <h4>Email</h4>
+              <p>contact@nikhilmahajan.dev</p>
+            </div>
+            <div class="info-card glass-card">
+              <i class="fas fa-phone"></i>
+              <h4>Phone</h4>
+              <p>+91 XXXXX XXXXX</p>
+            </div>
+            <div class="info-card glass-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <h4>Location</h4>
+              <p>India</p>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links glass-card">
+              <h4>Connect With Me</h4>
+              <div class="social-icons">
+                <a href="#" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#" aria-label="GitHub"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Google Maps Placeholder -->
+            <div class="map-container glass-card">
+              <div class="map-placeholder">
+                <i class="fas fa-map-marked-alt"></i>
+                <p>Map Location</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Nikhil Mahajan</h3>
+            <p>Software Engineer passionate about creating elegant solutions</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#freelancing">Web Development</a></li>
+              <li><a href="#freelancing">Full-Stack Apps</a></li>
+              <li><a href="#freelancing">Consultation</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Nikhil Mahajan. All rights reserved.</p>
+          <p>Designed & Developed with <i class="fas fa-heart"></i></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
